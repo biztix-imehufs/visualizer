@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sensor Visualizer</title>
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/justified-nav/justified-nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="js/amcharts/style.css">
+
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/chart.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/amcharts/amcharts.js"></script>
+    <script type="text/javascript" src="js/amcharts/serial.js"></script>
+    <script type="text/javascript" src="js/amcharts/themes/light.js"></script>
+    <script type="text/javascript" src="js/amcharts/amstock.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <!-- <a id="update" href="#" class="btn btn-primary">Start Monitoring</a> -->
+            <!-- <div id="selector">asd</div> -->
+            <div id="chartdiv" style="width:960px; height:400px">asd</div>
+        </div>
+
+        <h2>Accelerometer</h2>
+        <canvas id="clients" width="960px" height="350"></canvas>
+        <div>
+            <span class="lbl-red" id="lbl-accel-x"></span><br>
+            <span class="lbl-green" id="lbl-accel-y"></span><br>
+            <span class="lbl-blue" id="lbl-accel-z"></span><br>
+        </div>
+    </div>
+    <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
